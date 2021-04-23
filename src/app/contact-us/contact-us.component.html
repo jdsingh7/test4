@@ -1,1 +1,16 @@
-<p>contact-us works!</p>
+<p>Contact-Us!</p>
+<form name="myForm" onsubmit="return validate()" method ="post">
+
+    <label>Name</label>
+    <input type="text" name="Name" value="{Name}" required alert="must be filled">
+    
+
+    <label>Email</label>
+    <input type="email" name="email" value="{email}" required alert="must be filled">
+
+    <label>Message</label>
+    <input type="text" name="message" value="{message}" required>
+
+
+    <input type="button" name="submit" value="onsubmit">
+</form>
